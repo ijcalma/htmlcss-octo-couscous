@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Tracing</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="font: 14px sans-serif;">
+		<div class="login-container">
+			<div class="login-form">
+				<h2 style="text-align: center;" class="header">Login</h2>
+	        		<p style="text-align: center;">Please fill in your credentials to log in.</p>
+						<form action="trace-contact" method="POST">
+							<div class="label">
+								<label>Username </label>
+								<br>
+								<input type="text" name="username" placeholder="Username" style="width:235px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;">
+							</div>
+
+							<br>
+
+							<div class="label">
+								<label>Password</label>
+								<br>
+								<input type="password" name="password" style="width:235px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;" placeholder="Password">
+							</div>
+
+							<br>
+							<div class="label">
+								<input type="submit" value="Login" style="padding: 15px; border-radius: 50px; border: 0; background-color: #5cb85c; color: white; width: 125px; margin-left: 75px;">
+							</div>
+						</form>
+					</div>
+					<div class="side-content">
+					</div>
+		</div>
+	</body>
+</html>

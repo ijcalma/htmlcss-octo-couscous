@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Tracing</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="font: 14px sans-serif;">
+		<div class="container">
+			<div class="add-record">
+				<h2 style="text-align: center;" class="header">Contact Tracing Form</h2>
+	        		<p style="text-align: center;">Please fill in the following information for Contact Tracing:</p>
+
+						<form action="trace-contact" method="POST">
+							<div class="label">
+								<label>Full Name </label>
+								<br>
+								<input type="text" name="Full Name" placeholder="Enter Full Name" style="width:235px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;">
+							</div>
+
+							<br>
+
+							<div class="label">
+								<label> Gender </label>
+								<br>
+								<select name="gender" style="padding: 5px; border-radius: 5px; border: 1; margin-top: 5px">
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+
+							<br>
+
+							<div class="label">
+								<label>Address</label>
+								<br>
+								<input type="address" name="address" style="width:235px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;">
+							</div>
+
+							<br>
+
+							<div class="label">
+								<label>Contact Number </label>
+								<br>
+								<input type="contact" name="contact" placeholder="+63" style="width:235px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;">
+							</div>
+
+							<br>
+
+							<div class="label">
+								<label>Temperature</label>
+								<br>
+								<input type="temp" name="temp" style="width:55px; padding: 10px; border-radius: 5px; border: 1; margin-top: 5px;">
+							</div>
+
+							<br>
+							<div class="label">
+								<input type="submit" value="Add Record" style="padding: 15px; border-radius: 50px; border: 0; background-color: #5cb85c; color: white; width: 258px;">
+							</div>
+					</form>
+			</div>
+		</div>
+	</body>
+</html>
